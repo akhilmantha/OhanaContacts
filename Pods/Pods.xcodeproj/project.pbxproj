@@ -1,0 +1,1252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06105C97016DE0FA0B11A9295040D273 /* OHStatisticsPostProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CB8CED419D9D96C5A8D35B1C3CF4AB9 /* OHStatisticsPostProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		091C4D08FD4A8304301C722665BE0A74 /* UBSignalObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = AC41AC5932E93E9E8ABB7DDA5E8733A4 /* UBSignalObserver.m */; };
+		0DCC4AE5199D710A313D0FF2148E78FF /* OHContactsPostProcessorProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F5DBD66ACB9CF07DCF7790AF56EB9A /* OHContactsPostProcessorProtocol.m */; };
+		0E114DD01421CD243B64772DE2B91F00 /* UBBaseSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = 275818D3E391A4B7B333529A383B92F6 /* UBBaseSignal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F3039509A95D8B36257D573A08465B8 /* UBSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = F32C5ECEF005C8EAB11BEDB4A30B5C6F /* UBSignal.m */; };
+		1184E1CF6D32761901B805AA2C32A9D0 /* OHSplitOnFieldTypePostProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F9182AFF7FBF834CDD264FDFFA24816 /* OHSplitOnFieldTypePostProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1356E92D7EF8920BBB3DDE6A2B8C83CA /* OHContact.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E43CD086DC2228B62FF531F0C5EF0B /* OHContact.m */; };
+		17F43BD263095E16EF936F95F01ACF88 /* NBPhoneNumberDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = E46D51286C21077DADC0AF9E943CC27C /* NBPhoneNumberDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		182CA382417A30F08DC624766E5444D7 /* OHCNContactsDataProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = C6FCA49522AB730E2183448D01F8FC91 /* OHCNContactsDataProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19437EDAFFC5122F3B5C62861C8305B2 /* UberSignals-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 948D7B3CF100F5404426BA9E0BBA2EE2 /* UberSignals-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A5923D2A0E6E44A129E617FD3E75732 /* NBMetadataCoreTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A6A07FA50794EF908EC35B4729433B1 /* NBMetadataCoreTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AB57CF1180A260A69C6FFE7878335D5 /* NBPhoneNumberDesc.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D828C8A3B4BCDB316C4FAA26B7E4F14 /* NBPhoneNumberDesc.m */; };
+		1BD5CB0EDC3D221113A0588F95929E98 /* OHContactAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 261EA54808998BC94FD83BD52E96407A /* OHContactAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		224F1D34ACCFD277D1EB585CD549B818 /* OHMaximumSelectedCountSelectionFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B79B30CA5BE5ABA2C37FBCA9309A5FD /* OHMaximumSelectedCountSelectionFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24CACE83472D6DB950A8E7A4698AB495 /* UBSignalObserver+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C5F2106919841508EFF3F3D2FC03DCA /* UBSignalObserver+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2723332B5C586BAFFAB7E4B2802788B5 /* NBNumberFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C2BE36106B72AF50A4D217BE9771964 /* NBNumberFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27E478335D1A0645D57787C17ED8D0B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F8320A0634267D99AE436BE09C591A /* Foundation.framework */; };
+		2A4EDFE5517A3AB13DCB5F647843132C /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E450A34B4D3F90430135B4A4CF47CEB3 /* AddressBook.framework */; };
+		2B3D8B2C524F7F535F8713BD79AFE3BB /* Pods-MyContacts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE80DDCEC19B14CEFA2BC5FA501EFDC /* Pods-MyContacts-dummy.m */; };
+		316E7B5823DF9E2CEB75F8BE34C2AB67 /* OHReverseOrderPostProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = E539EE53F8C66D647EE3022073449DE6 /* OHReverseOrderPostProcessor.m */; };
+		363A8552945F740E0999B09E9CF0DDAD /* OHContactsDataProviderProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A0E62A7448358C02C7B7FBD04E9E9091 /* OHContactsDataProviderProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36A8ED1D447D64D18A71691491302B51 /* NBAsYouTypeFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5FFEF9FF7D57FA3010DEABA775FF86 /* NBAsYouTypeFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36EC9A62E8FF4548AB7E99403B660D38 /* NBMetadataCoreMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = F28DE55E9C1451B4692C4C45381BA628 /* NBMetadataCoreMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		374C9CCD8A9E14C8CF9C4266B384A79F /* OHContactAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = C22E4C8DACC16EFB825B3A57E3DCF484 /* OHContactAddress.m */; };
+		3B7F8BCB65310FABBCFD077FD0E1999E /* UberSignals.h in Headers */ = {isa = PBXBuildFile; fileRef = 97407379D0A7C486BA299DF17ADFF5C4 /* UberSignals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F46C74CCB7D535F6ECB98193A925112 /* NBMetadataCoreTestMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FCF3BF816FE69732FA18C5A60A7E603 /* NBMetadataCoreTestMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F626865BF121162AB5E432AFDB98C6C /* OhanaCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 401BBC4007208B33EEA688C3FA80BDF9 /* OhanaCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40A54F3AE4162DFD854D4873F0B159B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F8320A0634267D99AE436BE09C591A /* Foundation.framework */; };
+		43971EB9F27DF23E482EA61F34889BEF /* OHAlphabeticalSortPostProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C707276E87F5EFDD96F0FFBEAF3DFD4 /* OHAlphabeticalSortPostProcessor.m */; };
+		4B36709D8D76E08C6AC977FD7C6CEF8E /* NBPhoneNumberUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D005227F2FA2F37E61A4AB1D61B02B1A /* NBPhoneNumberUtil.m */; };
+		4BE569F518DB14A5B3890645EA7B75BF /* OHMinimumSelectedCountSelectionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7184395792C8558D28253D70CFCEBAE1 /* OHMinimumSelectedCountSelectionFilter.m */; };
+		519AB05108425A77DF1EB83C73E70D98 /* NBMetadataHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B20A6172C341BD82EC699B9085EA61E /* NBMetadataHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51AF948E359CC04F834200DF119199D3 /* OhanaUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = E059A74FC48B48CA610911AE298503F1 /* OhanaUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		546AE3DE81F3CF69585F1EE8F558ACB7 /* OHCompositeAndPostProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC3EB39B3456C25486377C6524E8CE1 /* OHCompositeAndPostProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		548A78963EE789B2BDDA08C5F4F9978B /* UBBaseSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1081CF36F32E57F9AC00A0EB6E011B /* UBBaseSignal.m */; };
+		5821D73FB91EE5856D78230364A77264 /* NBPhoneNumberUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = DFE625294058A3A977E012090F944D4D /* NBPhoneNumberUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59DEBD52D1ED2019515822F9F44A7AFC /* OHContactsSelectionFilterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E8898AE138B4D4E76740FF693E9687 /* OHContactsSelectionFilterProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C8745A75EEA6FA059849F69B9D8B7A8 /* NBMetadataCore.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A30455D87B01662F71C4A38736049A /* NBMetadataCore.m */; };
+		5D28EB4B85948B26BFED31E3D5BE1473 /* libPhoneNumber-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A52B6C7F4BC06C352322E8C457A05A /* libPhoneNumber-iOS-dummy.m */; };
+		60E131DC1A36CDDB9C507310CBD745BE /* OHContactField.h in Headers */ = {isa = PBXBuildFile; fileRef = C1DCF92AAEF5126FDEB022E76C3D0C73 /* OHContactField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		623DAC0C933E33D23D4185EA170F8CA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F8320A0634267D99AE436BE09C591A /* Foundation.framework */; };
+		63DF4022B0937228D2E7E9DCFAE6F5E5 /* OHCompositeXorPostProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CE957D4FD186B88154D40EC860B8F39 /* OHCompositeXorPostProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6592350D387E3A952522D53DB95A70B9 /* OHRequiredFieldSelectionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BCD65553459C2CE5687001C5C1607E /* OHRequiredFieldSelectionFilter.m */; };
+		6B724501CE32241A88B298086EA53046 /* NBMetadataCoreMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E61D78C009C7FEF8A6241FB095D88E3B /* NBMetadataCoreMapper.m */; };
+		6FC59CA7C5488DC444A18D9EAE410C1B /* OHFuzzyMatchingUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 5156C3DD49EFE037B9E51FCC3F728D86 /* OHFuzzyMatchingUtility.m */; };
+		71336BEFB22A62E4E292A83FC3DCE7D3 /* OHRequiredFieldPostProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CFC7B6C75E26C8AA3B9DA092D1B62C7 /* OHRequiredFieldPostProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72B301FC6D9659A27942185E25D8D08B /* UBSignal+Preprocessor.h in Headers */ = {isa = PBXBuildFile; fileRef = E4183BBB948881CDEC807F63562F4418 /* UBSignal+Preprocessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		730A6A7317129AF673EDEA1AAAD85685 /* OHCompositeOrPostProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF904AEAE95638A483F8399BF84E274 /* OHCompositeOrPostProcessor.m */; };
+		7498DDD8F7525B3139B2C7EE029A40E6 /* OHContactsDataProviderProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = A27AE0E3CC6C4405F7643BF947C01047 /* OHContactsDataProviderProtocol.m */; };
+		757DAB4F19B1540CC902016FD8F19DCE /* NBPhoneMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE3591AE5A820B2292D96FFFB6E03D7 /* NBPhoneMetaData.m */; };
+		78029AEEB71994661186DAB413B0B492 /* OHRequiredPostalAddressPostProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D66C7601B996BAE9E881108D1CD541 /* OHRequiredPostalAddressPostProcessor.m */; };
+		7C2CB9955FFD2EF75BD6E59102105302 /* OHRequiredFieldPostProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = B887937AC2FE7275C21BA30A30C1576D /* OHRequiredFieldPostProcessor.m */; };
+		81DED129747D290827713D3082817924 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C8E6FAF0D96A902EC4DA9160000BFDA /* CoreTelephony.framework */; };
+		85622D395FF614C4B0D87D732F241002 /* OHCompositeXorPostProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 118952470F23A8C1206BC66E93E7E7A9 /* OHCompositeXorPostProcessor.m */; };
+		8A5C7D4C80B856652B61182FDE02FED3 /* OHCompositeAndPostProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E1BBC3F1E46539E7E6A7B061EDA60D /* OHCompositeAndPostProcessor.m */; };
+		8B78201CE0855409E8839A2072998724 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F8320A0634267D99AE436BE09C591A /* Foundation.framework */; };
+		8BCE12544A5982B4035A41DB5F29EF3B /* OHMaximumSelectedCountSelectionFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3BE018DCED709E8B6F76A15760DFFE /* OHMaximumSelectedCountSelectionFilter.m */; };
+		8C5014D48469BB3F08F5B16D3C7FFF1C /* UberSignals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF898BBF3E9927EEF701BC516EE093C0 /* UberSignals.framework */; };
+		8D6172444BE179F7FFF2393094CAE8F5 /* UBSignal+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 09C24150B909F80D92C924F78E5E0A55 /* UBSignal+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8DF74F81106AF2544121850D313E2DCD /* Ohana-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AD617594C9BDF782B35E22A80E7BED /* Ohana-dummy.m */; };
+		8FD84BA78D4C6042630D5270ABB5AF9A /* OHRequiredPostalAddressPostProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DEB763F7255405886539F44D7EC109F /* OHRequiredPostalAddressPostProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91B0278A98D205798D8EAD688E964D22 /* NBNumberFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 5165F45B83E6E6F8F39C26E2A534FC6E /* NBNumberFormat.m */; };
+		925BB34FF47B6BE9FB5518EFCD0F0D51 /* Ohana-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1837D03049BFC1CF93EB51E0BFA484ED /* Ohana-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		941075F8962D541141A7C1E14C7D8E36 /* libPhoneNumber-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A239315F9E315A31CC075A706E21059 /* libPhoneNumber-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		965618BE79DFC104150A393116B846D3 /* OHContact.h in Headers */ = {isa = PBXBuildFile; fileRef = D3DCCE0C506E2DA8C71F45D4D5EDB1E1 /* OHContact.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9817E5A71DACB41DB1FB7913645AF259 /* OHReverseOrderPostProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 815D6CA7FB4B5CF64EC6727947EF3E24 /* OHReverseOrderPostProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99CB8B92B56D1764866C1B608DAE595B /* Ohana.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B3356A54B1F7969B804647041E2C0A9 /* Ohana.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F61CB304F2A99ACC6D93C7FF963927E /* NBAsYouTypeFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA6A48F3B1DE555446CEB0632A263E5 /* NBAsYouTypeFormatter.m */; };
+		A28DBBCADFAF9E4E01F0FDC27020F36B /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 734BCC00DD514BC5ADE190818B589C55 /* Contacts.framework */; };
+		A95C78B9A4A7AFDF3508EC69DD93E44B /* OHRequiredFieldSelectionFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F89D1417ADD3C15744DFD069301AD88 /* OHRequiredFieldSelectionFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF5F3B84E7A399D0C079B492F157FA40 /* OHAlphabeticalSortPostProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = CCA072CB9132849DEEC0E3635CCF8C94 /* OHAlphabeticalSortPostProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1D23B278B890907C8D0BAF2A4776EC6 /* NBMetadataCoreTestMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6A034B5F2E430B57DD63EE251773E9 /* NBMetadataCoreTestMapper.m */; };
+		B6FD89770E63F304CF7162F32B7D6E47 /* NBPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 0706C3CB31E5912F8553DD9AA855340C /* NBPhoneNumber.m */; };
+		B99BD1B2E733BCEF56CDA66F5776FD49 /* OHContactField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4437D77AD9F9B48E974BDA5041DF64AF /* OHContactField.m */; };
+		BA558B1F0641586ED3E8CC472462FF0A /* OHMinimumSelectedCountSelectionFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = D8EF53845DA4A7117324F624154CFFF3 /* OHMinimumSelectedCountSelectionFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCA497B84C236F7306D470D8829E65B5 /* OHSplitOnFieldTypePostProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EFDE775C3F93F339359882FC0032A5 /* OHSplitOnFieldTypePostProcessor.m */; };
+		C0FD99D4A17B42A00277A7F2AC51390F /* OHContactsPostProcessorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 6649F4636DBEA196DF100980CCB7ED53 /* OHContactsPostProcessorProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C18A21D3E8BCB3C3AA7A144EB93D6C72 /* libPhoneNumber_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BFD7B8E5384B107D23C2131509FE7CA /* libPhoneNumber_iOS.framework */; };
+		C4D549200BE1A27025789ED4DAB9DB86 /* OHABAddressBookContactsDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C89518F3946A19C9EDAE5B18525F17C7 /* OHABAddressBookContactsDataProvider.m */; };
+		C504AF7F7395D07EFF01C24D95782449 /* NBMetadataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EF13BC367DAD200E71ED7FE304CBC5C4 /* NBMetadataHelper.m */; };
+		C57274B11AE68B3AE2BE53641C47A8DF /* OHCNContactsDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 3796B52EE8591196758AE08102FD54A2 /* OHCNContactsDataProvider.m */; };
+		C61A22982256B52981D9C877DDC3F43C /* OHABAddressBookContactsDataProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = B030393F66008457FC1657CF23B82202 /* OHABAddressBookContactsDataProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C671A606E6A608EEDD931FB7D348C62A /* NBPhoneNumberDesc.h in Headers */ = {isa = PBXBuildFile; fileRef = DC80AD1F9761527E556AA3921385722F /* NBPhoneNumberDesc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6B7920D37CE7805090EB1326FB9161A /* OHPhoneNumberFormattingPostProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B857534D04C90B4B3BBAC8F12F91FA8 /* OHPhoneNumberFormattingPostProcessor.m */; };
+		C96691974AEEA99D48CEC0635631570C /* OHStatisticsPostProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 473386D89DCCFD07A34EA0AF6A81EFEF /* OHStatisticsPostProcessor.m */; };
+		CD079D9FF6CF2278EA1F123035F7B377 /* NBMetadataCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 7025E2C361B352614F5EA844C9A41BFB /* NBMetadataCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF1A16905B1892DB7E28E22448C92A5 /* OHContactsDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 6654CC4CD0090D2615E48381E3C2BB40 /* OHContactsDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF657A909094C612FA40F43AA357A74D /* OhanaCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 27B88F6EC4317370E25E5333D4EBF715 /* OhanaCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0076C2A7D11536E91D6B977287454D3 /* OHCompositeOrPostProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9888CDF7964EF31EDC78094C81B46413 /* OHCompositeOrPostProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2C812981DE9F6AB46709A9DFC6FC255 /* OHContactsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABD6442E741D7138D9A670317A858ED /* OHContactsDataSource.m */; };
+		DD24897A4099FB715EAD0DA1ECF02214 /* OHFuzzyMatchingUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = D41664CB95422AA5E369D6466182F8D2 /* OHFuzzyMatchingUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA5FD5082B57C0310174D5117B868A7 /* Pods-MyContacts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF9F5C938A51BEF545EFA085EDCDB0C /* Pods-MyContacts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2CE5E37909F9FB2BDB76F1C0F56CB08 /* NBPhoneNumberDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 561C016EF824F3C2D9E12F3F8E7C90D0 /* NBPhoneNumberDefines.m */; };
+		E803B320362DED092C79ADB3CA8BCC3C /* NBPhoneMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = 78632BA383B19475D3785D8F365E958A /* NBPhoneMetaData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E960872F42FA64DC5C6AE090DDDD63E8 /* NBPhoneNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8F3425EFA87D1158ED21CC264A3298 /* NBPhoneNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB1B4AAD409B31168DE70AAAAE13FB95 /* UberSignals-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4180BBB0D9BACEE387C35A4196DF40F3 /* UberSignals-dummy.m */; };
+		ED76B2B99ECAB719E7BD1038D3D0A069 /* UBSignalObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 0757DD6C241F841D2F030121DA0FE4BB /* UBSignalObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEFF62498D60EEED20B9ADA7B7836D83 /* NBMetadataCoreTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A07180C1B536FAA9E262D1D23C83EAC5 /* NBMetadataCoreTest.m */; };
+		F35116F923C9FC4562EA40557F60FB7A /* OHPhoneNumberFormattingPostProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 3938AA2C88C3FF919D54BA2C2E051D09 /* OHPhoneNumberFormattingPostProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4D0D412DC1DE4ABF3E89AB84459CBE9 /* UBSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = 89CD95C74B678C96AFCC37F61CBC78FD /* UBSignal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D33CA0F44FDCC2C9FFF07CBAD2D2D41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D5D891676725492FDD435B2ACEBBB3B;
+			remoteInfo = "libPhoneNumber-iOS";
+		};
+		30271FB166C355E612D4D538B670E362 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48ED6F80370468024FD8E1EA1AB1D104;
+			remoteInfo = UberSignals;
+		};
+		48F28EA356026404BA54EB168314FF90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48ED6F80370468024FD8E1EA1AB1D104;
+			remoteInfo = UberSignals;
+		};
+		4F1691C1F568C2657095F68CB3FA71A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0687E30467AF6A50504830300B49AE96;
+			remoteInfo = Ohana;
+		};
+		FBDC48F6D39C892671F7FE1D93793626 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D5D891676725492FDD435B2ACEBBB3B;
+			remoteInfo = "libPhoneNumber-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05AA79C67DCBE25A5BC6F732548F2BCC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0706C3CB31E5912F8553DD9AA855340C /* NBPhoneNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneNumber.m; path = libPhoneNumber/NBPhoneNumber.m; sourceTree = "<group>"; };
+		0757DD6C241F841D2F030121DA0FE4BB /* UBSignalObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBSignalObserver.h; path = UberSignals/UBSignalObserver.h; sourceTree = "<group>"; };
+		08F7209111766A8EF29C6F67F60BF11D /* Pods-MyContacts-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyContacts-frameworks.sh"; sourceTree = "<group>"; };
+		09C24150B909F80D92C924F78E5E0A55 /* UBSignal+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UBSignal+Internal.h"; path = "UberSignals/UBSignal+Internal.h"; sourceTree = "<group>"; };
+		0A5FFEF9FF7D57FA3010DEABA775FF86 /* NBAsYouTypeFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBAsYouTypeFormatter.h; path = libPhoneNumber/NBAsYouTypeFormatter.h; sourceTree = "<group>"; };
+		0C8E6FAF0D96A902EC4DA9160000BFDA /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		0FCF3BF816FE69732FA18C5A60A7E603 /* NBMetadataCoreTestMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBMetadataCoreTestMapper.h; path = libPhoneNumber/NBMetadataCoreTestMapper.h; sourceTree = "<group>"; };
+		109BD69D5DE91BAF59156BB5000CB175 /* Pods-MyContacts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MyContacts.modulemap"; sourceTree = "<group>"; };
+		118952470F23A8C1206BC66E93E7E7A9 /* OHCompositeXorPostProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHCompositeXorPostProcessor.m; path = Ohana/Classes/Common/PostProcessors/Composite/OHCompositeXorPostProcessor.m; sourceTree = "<group>"; };
+		12FF22A5174DEE9A340ED0763BDE327E /* Pods-MyContacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyContacts.debug.xcconfig"; sourceTree = "<group>"; };
+		1584DC03DA7B15F102E833880BD549F6 /* Ohana-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ohana-prefix.pch"; sourceTree = "<group>"; };
+		182B43EAC9C1777404C2F9D9AD615467 /* UberSignals-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UberSignals-prefix.pch"; sourceTree = "<group>"; };
+		1837D03049BFC1CF93EB51E0BFA484ED /* Ohana-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ohana-umbrella.h"; sourceTree = "<group>"; };
+		1BFD7B8E5384B107D23C2131509FE7CA /* libPhoneNumber_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libPhoneNumber_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C6A034B5F2E430B57DD63EE251773E9 /* NBMetadataCoreTestMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBMetadataCoreTestMapper.m; path = libPhoneNumber/NBMetadataCoreTestMapper.m; sourceTree = "<group>"; };
+		261EA54808998BC94FD83BD52E96407A /* OHContactAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHContactAddress.h; path = Ohana/Classes/Core/OHContactAddress.h; sourceTree = "<group>"; };
+		275818D3E391A4B7B333529A383B92F6 /* UBBaseSignal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBBaseSignal.h; path = UberSignals/UBBaseSignal.h; sourceTree = "<group>"; };
+		27AD617594C9BDF782B35E22A80E7BED /* Ohana-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Ohana-dummy.m"; sourceTree = "<group>"; };
+		27B88F6EC4317370E25E5333D4EBF715 /* OhanaCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OhanaCommon.h; path = Ohana/Classes/Common/OhanaCommon.h; sourceTree = "<group>"; };
+		2A6A07FA50794EF908EC35B4729433B1 /* NBMetadataCoreTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBMetadataCoreTest.h; path = libPhoneNumber/NBMetadataCoreTest.h; sourceTree = "<group>"; };
+		3796B52EE8591196758AE08102FD54A2 /* OHCNContactsDataProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHCNContactsDataProvider.m; path = Ohana/Classes/Common/DataProviders/OHCNContactsDataProvider.m; sourceTree = "<group>"; };
+		3938AA2C88C3FF919D54BA2C2E051D09 /* OHPhoneNumberFormattingPostProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHPhoneNumberFormattingPostProcessor.h; path = Ohana/Classes/Common/PostProcessors/OHPhoneNumberFormattingPostProcessor.h; sourceTree = "<group>"; };
+		3A239315F9E315A31CC075A706E21059 /* libPhoneNumber-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libPhoneNumber-iOS-umbrella.h"; sourceTree = "<group>"; };
+		3ABD6442E741D7138D9A670317A858ED /* OHContactsDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHContactsDataSource.m; path = Ohana/Classes/Core/OHContactsDataSource.m; sourceTree = "<group>"; };
+		3B3356A54B1F7969B804647041E2C0A9 /* Ohana.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Ohana.h; path = Ohana/Classes/Ohana.h; sourceTree = "<group>"; };
+		3C707276E87F5EFDD96F0FFBEAF3DFD4 /* OHAlphabeticalSortPostProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHAlphabeticalSortPostProcessor.m; path = Ohana/Classes/Common/PostProcessors/OHAlphabeticalSortPostProcessor.m; sourceTree = "<group>"; };
+		3DEB763F7255405886539F44D7EC109F /* OHRequiredPostalAddressPostProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHRequiredPostalAddressPostProcessor.h; path = Ohana/Classes/Common/PostProcessors/OHRequiredPostalAddressPostProcessor.h; sourceTree = "<group>"; };
+		3EC0287D049D5F2A84E48936FAE5A297 /* Ohana.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Ohana.framework; path = Ohana.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA95DAD5B50D9651B521411B55A7830 /* Pods-MyContacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyContacts.release.xcconfig"; sourceTree = "<group>"; };
+		3FF9F5C938A51BEF545EFA085EDCDB0C /* Pods-MyContacts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyContacts-umbrella.h"; sourceTree = "<group>"; };
+		401BBC4007208B33EEA688C3FA80BDF9 /* OhanaCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OhanaCore.h; path = Ohana/Classes/Core/OhanaCore.h; sourceTree = "<group>"; };
+		40A52B6C7F4BC06C352322E8C457A05A /* libPhoneNumber-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libPhoneNumber-iOS-dummy.m"; sourceTree = "<group>"; };
+		4180BBB0D9BACEE387C35A4196DF40F3 /* UberSignals-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UberSignals-dummy.m"; sourceTree = "<group>"; };
+		4437D77AD9F9B48E974BDA5041DF64AF /* OHContactField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHContactField.m; path = Ohana/Classes/Core/OHContactField.m; sourceTree = "<group>"; };
+		44D66C7601B996BAE9E881108D1CD541 /* OHRequiredPostalAddressPostProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHRequiredPostalAddressPostProcessor.m; path = Ohana/Classes/Common/PostProcessors/OHRequiredPostalAddressPostProcessor.m; sourceTree = "<group>"; };
+		46D16328DDC5770C3023B9DA1D0B9F26 /* UberSignals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UberSignals.framework; path = UberSignals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		473386D89DCCFD07A34EA0AF6A81EFEF /* OHStatisticsPostProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHStatisticsPostProcessor.m; path = Ohana/Classes/Common/PostProcessors/OHStatisticsPostProcessor.m; sourceTree = "<group>"; };
+		4CFC7B6C75E26C8AA3B9DA092D1B62C7 /* OHRequiredFieldPostProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHRequiredFieldPostProcessor.h; path = Ohana/Classes/Common/PostProcessors/OHRequiredFieldPostProcessor.h; sourceTree = "<group>"; };
+		5156C3DD49EFE037B9E51FCC3F728D86 /* OHFuzzyMatchingUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHFuzzyMatchingUtility.m; path = Ohana/Classes/Utilities/OHFuzzyMatchingUtility.m; sourceTree = "<group>"; };
+		5165F45B83E6E6F8F39C26E2A534FC6E /* NBNumberFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBNumberFormat.m; path = libPhoneNumber/NBNumberFormat.m; sourceTree = "<group>"; };
+		561C016EF824F3C2D9E12F3F8E7C90D0 /* NBPhoneNumberDefines.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneNumberDefines.m; path = libPhoneNumber/NBPhoneNumberDefines.m; sourceTree = "<group>"; };
+		5B20A6172C341BD82EC699B9085EA61E /* NBMetadataHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBMetadataHelper.h; path = libPhoneNumber/NBMetadataHelper.h; sourceTree = "<group>"; };
+		5B857534D04C90B4B3BBAC8F12F91FA8 /* OHPhoneNumberFormattingPostProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHPhoneNumberFormattingPostProcessor.m; path = Ohana/Classes/Common/PostProcessors/OHPhoneNumberFormattingPostProcessor.m; sourceTree = "<group>"; };
+		5CE957D4FD186B88154D40EC860B8F39 /* OHCompositeXorPostProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHCompositeXorPostProcessor.h; path = Ohana/Classes/Common/PostProcessors/Composite/OHCompositeXorPostProcessor.h; sourceTree = "<group>"; };
+		5D828C8A3B4BCDB316C4FAA26B7E4F14 /* NBPhoneNumberDesc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneNumberDesc.m; path = libPhoneNumber/NBPhoneNumberDesc.m; sourceTree = "<group>"; };
+		5EDE32D5B50076CA10298B84D1F0797B /* UberSignals.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UberSignals.xcconfig; sourceTree = "<group>"; };
+		6352B8C6B3305445F7C7DC3E6584F3B5 /* Pods_MyContacts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyContacts.framework; path = "Pods-MyContacts.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6649F4636DBEA196DF100980CCB7ED53 /* OHContactsPostProcessorProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHContactsPostProcessorProtocol.h; path = Ohana/Classes/Core/OHContactsPostProcessorProtocol.h; sourceTree = "<group>"; };
+		6654CC4CD0090D2615E48381E3C2BB40 /* OHContactsDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHContactsDataSource.h; path = Ohana/Classes/Core/OHContactsDataSource.h; sourceTree = "<group>"; };
+		67E1BBC3F1E46539E7E6A7B061EDA60D /* OHCompositeAndPostProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHCompositeAndPostProcessor.m; path = Ohana/Classes/Common/PostProcessors/Composite/OHCompositeAndPostProcessor.m; sourceTree = "<group>"; };
+		6C5F2106919841508EFF3F3D2FC03DCA /* UBSignalObserver+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UBSignalObserver+Internal.h"; path = "UberSignals/UBSignalObserver+Internal.h"; sourceTree = "<group>"; };
+		6CF904AEAE95638A483F8399BF84E274 /* OHCompositeOrPostProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHCompositeOrPostProcessor.m; path = Ohana/Classes/Common/PostProcessors/Composite/OHCompositeOrPostProcessor.m; sourceTree = "<group>"; };
+		7025E2C361B352614F5EA844C9A41BFB /* NBMetadataCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBMetadataCore.h; path = libPhoneNumber/NBMetadataCore.h; sourceTree = "<group>"; };
+		7184395792C8558D28253D70CFCEBAE1 /* OHMinimumSelectedCountSelectionFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHMinimumSelectedCountSelectionFilter.m; path = Ohana/Classes/Common/SelectionFilters/OHMinimumSelectedCountSelectionFilter.m; sourceTree = "<group>"; };
+		734BCC00DD514BC5ADE190818B589C55 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Contacts.framework; sourceTree = DEVELOPER_DIR; };
+		740CC51641E5A7093EAD27CA788CBFF7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74F8320A0634267D99AE436BE09C591A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77EFDE775C3F93F339359882FC0032A5 /* OHSplitOnFieldTypePostProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHSplitOnFieldTypePostProcessor.m; path = Ohana/Classes/Common/PostProcessors/OHSplitOnFieldTypePostProcessor.m; sourceTree = "<group>"; };
+		78632BA383B19475D3785D8F365E958A /* NBPhoneMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneMetaData.h; path = libPhoneNumber/NBPhoneMetaData.h; sourceTree = "<group>"; };
+		79E8898AE138B4D4E76740FF693E9687 /* OHContactsSelectionFilterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHContactsSelectionFilterProtocol.h; path = Ohana/Classes/Core/OHContactsSelectionFilterProtocol.h; sourceTree = "<group>"; };
+		7B79B30CA5BE5ABA2C37FBCA9309A5FD /* OHMaximumSelectedCountSelectionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHMaximumSelectedCountSelectionFilter.h; path = Ohana/Classes/Common/SelectionFilters/OHMaximumSelectedCountSelectionFilter.h; sourceTree = "<group>"; };
+		7BC6DFA4E230D5DE924D0C795A1622B7 /* Pods-MyContacts-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyContacts-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7C1081CF36F32E57F9AC00A0EB6E011B /* UBBaseSignal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBBaseSignal.m; path = UberSignals/UBBaseSignal.m; sourceTree = "<group>"; };
+		7DFAA700FCCDABA707556EC9188A2978 /* Ohana.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Ohana.modulemap; sourceTree = "<group>"; };
+		7E3BE018DCED709E8B6F76A15760DFFE /* OHMaximumSelectedCountSelectionFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHMaximumSelectedCountSelectionFilter.m; path = Ohana/Classes/Common/SelectionFilters/OHMaximumSelectedCountSelectionFilter.m; sourceTree = "<group>"; };
+		7F9182AFF7FBF834CDD264FDFFA24816 /* OHSplitOnFieldTypePostProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHSplitOnFieldTypePostProcessor.h; path = Ohana/Classes/Common/PostProcessors/OHSplitOnFieldTypePostProcessor.h; sourceTree = "<group>"; };
+		815D6CA7FB4B5CF64EC6727947EF3E24 /* OHReverseOrderPostProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHReverseOrderPostProcessor.h; path = Ohana/Classes/Common/PostProcessors/OHReverseOrderPostProcessor.h; sourceTree = "<group>"; };
+		87F5DBD66ACB9CF07DCF7790AF56EB9A /* OHContactsPostProcessorProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHContactsPostProcessorProtocol.m; path = Ohana/Classes/Core/OHContactsPostProcessorProtocol.m; sourceTree = "<group>"; };
+		88E6F00FBAC97D235C361EFF91074E9D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89CD95C74B678C96AFCC37F61CBC78FD /* UBSignal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBSignal.h; path = UberSignals/UBSignal.h; sourceTree = "<group>"; };
+		8CB8CED419D9D96C5A8D35B1C3CF4AB9 /* OHStatisticsPostProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHStatisticsPostProcessor.h; path = Ohana/Classes/Common/PostProcessors/OHStatisticsPostProcessor.h; sourceTree = "<group>"; };
+		913207A27030EEBE3AEF29E978DE4674 /* Ohana.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Ohana.xcconfig; sourceTree = "<group>"; };
+		91BCD65553459C2CE5687001C5C1607E /* OHRequiredFieldSelectionFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHRequiredFieldSelectionFilter.m; path = Ohana/Classes/Common/SelectionFilters/OHRequiredFieldSelectionFilter.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		948D7B3CF100F5404426BA9E0BBA2EE2 /* UberSignals-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UberSignals-umbrella.h"; sourceTree = "<group>"; };
+		9659195A52F966736827E5735BEC4C50 /* Pods-MyContacts-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyContacts-acknowledgements.plist"; sourceTree = "<group>"; };
+		97407379D0A7C486BA299DF17ADFF5C4 /* UberSignals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UberSignals.h; path = UberSignals/UberSignals.h; sourceTree = "<group>"; };
+		9888CDF7964EF31EDC78094C81B46413 /* OHCompositeOrPostProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHCompositeOrPostProcessor.h; path = Ohana/Classes/Common/PostProcessors/Composite/OHCompositeOrPostProcessor.h; sourceTree = "<group>"; };
+		9BC834BB86035A971857FFD055226944 /* Pods-MyContacts-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyContacts-resources.sh"; sourceTree = "<group>"; };
+		9C2BE36106B72AF50A4D217BE9771964 /* NBNumberFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBNumberFormat.h; path = libPhoneNumber/NBNumberFormat.h; sourceTree = "<group>"; };
+		9CE3591AE5A820B2292D96FFFB6E03D7 /* NBPhoneMetaData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneMetaData.m; path = libPhoneNumber/NBPhoneMetaData.m; sourceTree = "<group>"; };
+		9F53EC1FD45D488AD538D15D99E4F7E2 /* UberSignals.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UberSignals.modulemap; sourceTree = "<group>"; };
+		9F74EA2FD7D0375E512BE6825F94696A /* libPhoneNumber_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = libPhoneNumber_iOS.framework; path = "libPhoneNumber-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F89D1417ADD3C15744DFD069301AD88 /* OHRequiredFieldSelectionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHRequiredFieldSelectionFilter.h; path = Ohana/Classes/Common/SelectionFilters/OHRequiredFieldSelectionFilter.h; sourceTree = "<group>"; };
+		A07180C1B536FAA9E262D1D23C83EAC5 /* NBMetadataCoreTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBMetadataCoreTest.m; path = libPhoneNumber/NBMetadataCoreTest.m; sourceTree = "<group>"; };
+		A0E62A7448358C02C7B7FBD04E9E9091 /* OHContactsDataProviderProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHContactsDataProviderProtocol.h; path = Ohana/Classes/Core/OHContactsDataProviderProtocol.h; sourceTree = "<group>"; };
+		A27AE0E3CC6C4405F7643BF947C01047 /* OHContactsDataProviderProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHContactsDataProviderProtocol.m; path = Ohana/Classes/Core/OHContactsDataProviderProtocol.m; sourceTree = "<group>"; };
+		AB3680B0D2866250ECC16AB2D6022AFD /* libPhoneNumber-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libPhoneNumber-iOS-prefix.pch"; sourceTree = "<group>"; };
+		ABA6A48F3B1DE555446CEB0632A263E5 /* NBAsYouTypeFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBAsYouTypeFormatter.m; path = libPhoneNumber/NBAsYouTypeFormatter.m; sourceTree = "<group>"; };
+		AC41AC5932E93E9E8ABB7DDA5E8733A4 /* UBSignalObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBSignalObserver.m; path = UberSignals/UBSignalObserver.m; sourceTree = "<group>"; };
+		B030393F66008457FC1657CF23B82202 /* OHABAddressBookContactsDataProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHABAddressBookContactsDataProvider.h; path = Ohana/Classes/Common/DataProviders/OHABAddressBookContactsDataProvider.h; sourceTree = "<group>"; };
+		B887937AC2FE7275C21BA30A30C1576D /* OHRequiredFieldPostProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHRequiredFieldPostProcessor.m; path = Ohana/Classes/Common/PostProcessors/OHRequiredFieldPostProcessor.m; sourceTree = "<group>"; };
+		C1DCF92AAEF5126FDEB022E76C3D0C73 /* OHContactField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHContactField.h; path = Ohana/Classes/Core/OHContactField.h; sourceTree = "<group>"; };
+		C22E4C8DACC16EFB825B3A57E3DCF484 /* OHContactAddress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHContactAddress.m; path = Ohana/Classes/Core/OHContactAddress.m; sourceTree = "<group>"; };
+		C6FCA49522AB730E2183448D01F8FC91 /* OHCNContactsDataProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHCNContactsDataProvider.h; path = Ohana/Classes/Common/DataProviders/OHCNContactsDataProvider.h; sourceTree = "<group>"; };
+		C89518F3946A19C9EDAE5B18525F17C7 /* OHABAddressBookContactsDataProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHABAddressBookContactsDataProvider.m; path = Ohana/Classes/Common/DataProviders/OHABAddressBookContactsDataProvider.m; sourceTree = "<group>"; };
+		CAE80DDCEC19B14CEFA2BC5FA501EFDC /* Pods-MyContacts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyContacts-dummy.m"; sourceTree = "<group>"; };
+		CCA072CB9132849DEEC0E3635CCF8C94 /* OHAlphabeticalSortPostProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHAlphabeticalSortPostProcessor.h; path = Ohana/Classes/Common/PostProcessors/OHAlphabeticalSortPostProcessor.h; sourceTree = "<group>"; };
+		D005227F2FA2F37E61A4AB1D61B02B1A /* NBPhoneNumberUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneNumberUtil.m; path = libPhoneNumber/NBPhoneNumberUtil.m; sourceTree = "<group>"; };
+		D3DCCE0C506E2DA8C71F45D4D5EDB1E1 /* OHContact.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHContact.h; path = Ohana/Classes/Core/OHContact.h; sourceTree = "<group>"; };
+		D41664CB95422AA5E369D6466182F8D2 /* OHFuzzyMatchingUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHFuzzyMatchingUtility.h; path = Ohana/Classes/Utilities/OHFuzzyMatchingUtility.h; sourceTree = "<group>"; };
+		D8EF53845DA4A7117324F624154CFFF3 /* OHMinimumSelectedCountSelectionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHMinimumSelectedCountSelectionFilter.h; path = Ohana/Classes/Common/SelectionFilters/OHMinimumSelectedCountSelectionFilter.h; sourceTree = "<group>"; };
+		DB8F3425EFA87D1158ED21CC264A3298 /* NBPhoneNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneNumber.h; path = libPhoneNumber/NBPhoneNumber.h; sourceTree = "<group>"; };
+		DC80AD1F9761527E556AA3921385722F /* NBPhoneNumberDesc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneNumberDesc.h; path = libPhoneNumber/NBPhoneNumberDesc.h; sourceTree = "<group>"; };
+		DD1D32BC11391E651868185AA8D49581 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE625294058A3A977E012090F944D4D /* NBPhoneNumberUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneNumberUtil.h; path = libPhoneNumber/NBPhoneNumberUtil.h; sourceTree = "<group>"; };
+		E059A74FC48B48CA610911AE298503F1 /* OhanaUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OhanaUtilities.h; path = Ohana/Classes/Utilities/OhanaUtilities.h; sourceTree = "<group>"; };
+		E4183BBB948881CDEC807F63562F4418 /* UBSignal+Preprocessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UBSignal+Preprocessor.h"; path = "UberSignals/UBSignal+Preprocessor.h"; sourceTree = "<group>"; };
+		E450A34B4D3F90430135B4A4CF47CEB3 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = DEVELOPER_DIR; };
+		E46D51286C21077DADC0AF9E943CC27C /* NBPhoneNumberDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneNumberDefines.h; path = libPhoneNumber/NBPhoneNumberDefines.h; sourceTree = "<group>"; };
+		E539EE53F8C66D647EE3022073449DE6 /* OHReverseOrderPostProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHReverseOrderPostProcessor.m; path = Ohana/Classes/Common/PostProcessors/OHReverseOrderPostProcessor.m; sourceTree = "<group>"; };
+		E61D78C009C7FEF8A6241FB095D88E3B /* NBMetadataCoreMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBMetadataCoreMapper.m; path = libPhoneNumber/NBMetadataCoreMapper.m; sourceTree = "<group>"; };
+		E9A30455D87B01662F71C4A38736049A /* NBMetadataCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBMetadataCore.m; path = libPhoneNumber/NBMetadataCore.m; sourceTree = "<group>"; };
+		EC93751B0C8CAE9401ACBA4E29BE863B /* libPhoneNumber-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "libPhoneNumber-iOS.xcconfig"; sourceTree = "<group>"; };
+		EEC3EB39B3456C25486377C6524E8CE1 /* OHCompositeAndPostProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHCompositeAndPostProcessor.h; path = Ohana/Classes/Common/PostProcessors/Composite/OHCompositeAndPostProcessor.h; sourceTree = "<group>"; };
+		EF13BC367DAD200E71ED7FE304CBC5C4 /* NBMetadataHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBMetadataHelper.m; path = libPhoneNumber/NBMetadataHelper.m; sourceTree = "<group>"; };
+		EF898BBF3E9927EEF701BC516EE093C0 /* UberSignals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UberSignals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28DE55E9C1451B4692C4C45381BA628 /* NBMetadataCoreMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBMetadataCoreMapper.h; path = libPhoneNumber/NBMetadataCoreMapper.h; sourceTree = "<group>"; };
+		F32C5ECEF005C8EAB11BEDB4A30B5C6F /* UBSignal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBSignal.m; path = UberSignals/UBSignal.m; sourceTree = "<group>"; };
+		F6620BC348083CC798C91727120748A9 /* libPhoneNumber-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "libPhoneNumber-iOS.modulemap"; sourceTree = "<group>"; };
+		F9E43CD086DC2228B62FF531F0C5EF0B /* OHContact.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHContact.m; path = Ohana/Classes/Core/OHContact.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BE678D22D89ED4969012660E2841769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A4EDFE5517A3AB13DCB5F647843132C /* AddressBook.framework in Frameworks */,
+				A28DBBCADFAF9E4E01F0FDC27020F36B /* Contacts.framework in Frameworks */,
+				27E478335D1A0645D57787C17ED8D0B0 /* Foundation.framework in Frameworks */,
+				C18A21D3E8BCB3C3AA7A144EB93D6C72 /* libPhoneNumber_iOS.framework in Frameworks */,
+				8C5014D48469BB3F08F5B16D3C7FFF1C /* UberSignals.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F011F3D197A791228CE67D95632C7B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A54F3AE4162DFD854D4873F0B159B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D260C87D405AEF5486F446E8DB401DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81DED129747D290827713D3082817924 /* CoreTelephony.framework in Frameworks */,
+				623DAC0C933E33D23D4185EA170F8CA9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD731FDD96BB8AB9C0A91F00CC7A3B00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B78201CE0855409E8839A2072998724 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37F5FE51029F9878F8E43CA4D5C9C65D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD1D32BC11391E651868185AA8D49581 /* Info.plist */,
+				9F53EC1FD45D488AD538D15D99E4F7E2 /* UberSignals.modulemap */,
+				5EDE32D5B50076CA10298B84D1F0797B /* UberSignals.xcconfig */,
+				4180BBB0D9BACEE387C35A4196DF40F3 /* UberSignals-dummy.m */,
+				182B43EAC9C1777404C2F9D9AD615467 /* UberSignals-prefix.pch */,
+				948D7B3CF100F5404426BA9E0BBA2EE2 /* UberSignals-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UberSignals";
+			sourceTree = "<group>";
+		};
+		3BCD02DE93176DD8C79D666C2CC83722 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				05AA79C67DCBE25A5BC6F732548F2BCC /* Info.plist */,
+				F6620BC348083CC798C91727120748A9 /* libPhoneNumber-iOS.modulemap */,
+				EC93751B0C8CAE9401ACBA4E29BE863B /* libPhoneNumber-iOS.xcconfig */,
+				40A52B6C7F4BC06C352322E8C457A05A /* libPhoneNumber-iOS-dummy.m */,
+				AB3680B0D2866250ECC16AB2D6022AFD /* libPhoneNumber-iOS-prefix.pch */,
+				3A239315F9E315A31CC075A706E21059 /* libPhoneNumber-iOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/libPhoneNumber-iOS";
+			sourceTree = "<group>";
+		};
+		48546EC3B03045DD2AE9E99041D468B6 /* Pods-MyContacts */ = {
+			isa = PBXGroup;
+			children = (
+				740CC51641E5A7093EAD27CA788CBFF7 /* Info.plist */,
+				109BD69D5DE91BAF59156BB5000CB175 /* Pods-MyContacts.modulemap */,
+				7BC6DFA4E230D5DE924D0C795A1622B7 /* Pods-MyContacts-acknowledgements.markdown */,
+				9659195A52F966736827E5735BEC4C50 /* Pods-MyContacts-acknowledgements.plist */,
+				CAE80DDCEC19B14CEFA2BC5FA501EFDC /* Pods-MyContacts-dummy.m */,
+				08F7209111766A8EF29C6F67F60BF11D /* Pods-MyContacts-frameworks.sh */,
+				9BC834BB86035A971857FFD055226944 /* Pods-MyContacts-resources.sh */,
+				3FF9F5C938A51BEF545EFA085EDCDB0C /* Pods-MyContacts-umbrella.h */,
+				12FF22A5174DEE9A340ED0763BDE327E /* Pods-MyContacts.debug.xcconfig */,
+				3FA95DAD5B50D9651B521411B55A7830 /* Pods-MyContacts.release.xcconfig */,
+			);
+			name = "Pods-MyContacts";
+			path = "Target Support Files/Pods-MyContacts";
+			sourceTree = "<group>";
+		};
+		6BEEDD82540C22165B1580EAA90D1753 /* libPhoneNumber-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0A5FFEF9FF7D57FA3010DEABA775FF86 /* NBAsYouTypeFormatter.h */,
+				ABA6A48F3B1DE555446CEB0632A263E5 /* NBAsYouTypeFormatter.m */,
+				7025E2C361B352614F5EA844C9A41BFB /* NBMetadataCore.h */,
+				E9A30455D87B01662F71C4A38736049A /* NBMetadataCore.m */,
+				F28DE55E9C1451B4692C4C45381BA628 /* NBMetadataCoreMapper.h */,
+				E61D78C009C7FEF8A6241FB095D88E3B /* NBMetadataCoreMapper.m */,
+				2A6A07FA50794EF908EC35B4729433B1 /* NBMetadataCoreTest.h */,
+				A07180C1B536FAA9E262D1D23C83EAC5 /* NBMetadataCoreTest.m */,
+				0FCF3BF816FE69732FA18C5A60A7E603 /* NBMetadataCoreTestMapper.h */,
+				1C6A034B5F2E430B57DD63EE251773E9 /* NBMetadataCoreTestMapper.m */,
+				5B20A6172C341BD82EC699B9085EA61E /* NBMetadataHelper.h */,
+				EF13BC367DAD200E71ED7FE304CBC5C4 /* NBMetadataHelper.m */,
+				9C2BE36106B72AF50A4D217BE9771964 /* NBNumberFormat.h */,
+				5165F45B83E6E6F8F39C26E2A534FC6E /* NBNumberFormat.m */,
+				78632BA383B19475D3785D8F365E958A /* NBPhoneMetaData.h */,
+				9CE3591AE5A820B2292D96FFFB6E03D7 /* NBPhoneMetaData.m */,
+				DB8F3425EFA87D1158ED21CC264A3298 /* NBPhoneNumber.h */,
+				0706C3CB31E5912F8553DD9AA855340C /* NBPhoneNumber.m */,
+				E46D51286C21077DADC0AF9E943CC27C /* NBPhoneNumberDefines.h */,
+				561C016EF824F3C2D9E12F3F8E7C90D0 /* NBPhoneNumberDefines.m */,
+				DC80AD1F9761527E556AA3921385722F /* NBPhoneNumberDesc.h */,
+				5D828C8A3B4BCDB316C4FAA26B7E4F14 /* NBPhoneNumberDesc.m */,
+				DFE625294058A3A977E012090F944D4D /* NBPhoneNumberUtil.h */,
+				D005227F2FA2F37E61A4AB1D61B02B1A /* NBPhoneNumberUtil.m */,
+				3BCD02DE93176DD8C79D666C2CC83722 /* Support Files */,
+			);
+			name = "libPhoneNumber-iOS";
+			path = "libPhoneNumber-iOS";
+			sourceTree = "<group>";
+		};
+		7061CF3956DA35D6582CB0E7F9294CC1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				88E6F00FBAC97D235C361EFF91074E9D /* Info.plist */,
+				7DFAA700FCCDABA707556EC9188A2978 /* Ohana.modulemap */,
+				913207A27030EEBE3AEF29E978DE4674 /* Ohana.xcconfig */,
+				27AD617594C9BDF782B35E22A80E7BED /* Ohana-dummy.m */,
+				1584DC03DA7B15F102E833880BD549F6 /* Ohana-prefix.pch */,
+				1837D03049BFC1CF93EB51E0BFA484ED /* Ohana-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Ohana";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A2273FA928DB55E3646334E7771303EF /* Frameworks */,
+				8B51F1E6849266A47A5BD5793BD6376F /* Pods */,
+				E15E2C4450B7E891EFB6732368A6DA90 /* Products */,
+				BA33B13C7F93819B380F6CF969D1DCA4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B51F1E6849266A47A5BD5793BD6376F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BEEDD82540C22165B1580EAA90D1753 /* libPhoneNumber-iOS */,
+				9B70482290C7EF1B724AA96BDFB8E3F0 /* Ohana */,
+				A759B829AC329AC67A05BED8107579CD /* UberSignals */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B70482290C7EF1B724AA96BDFB8E3F0 /* Ohana */ = {
+			isa = PBXGroup;
+			children = (
+				B030393F66008457FC1657CF23B82202 /* OHABAddressBookContactsDataProvider.h */,
+				C89518F3946A19C9EDAE5B18525F17C7 /* OHABAddressBookContactsDataProvider.m */,
+				CCA072CB9132849DEEC0E3635CCF8C94 /* OHAlphabeticalSortPostProcessor.h */,
+				3C707276E87F5EFDD96F0FFBEAF3DFD4 /* OHAlphabeticalSortPostProcessor.m */,
+				3B3356A54B1F7969B804647041E2C0A9 /* Ohana.h */,
+				27B88F6EC4317370E25E5333D4EBF715 /* OhanaCommon.h */,
+				401BBC4007208B33EEA688C3FA80BDF9 /* OhanaCore.h */,
+				E059A74FC48B48CA610911AE298503F1 /* OhanaUtilities.h */,
+				C6FCA49522AB730E2183448D01F8FC91 /* OHCNContactsDataProvider.h */,
+				3796B52EE8591196758AE08102FD54A2 /* OHCNContactsDataProvider.m */,
+				EEC3EB39B3456C25486377C6524E8CE1 /* OHCompositeAndPostProcessor.h */,
+				67E1BBC3F1E46539E7E6A7B061EDA60D /* OHCompositeAndPostProcessor.m */,
+				9888CDF7964EF31EDC78094C81B46413 /* OHCompositeOrPostProcessor.h */,
+				6CF904AEAE95638A483F8399BF84E274 /* OHCompositeOrPostProcessor.m */,
+				5CE957D4FD186B88154D40EC860B8F39 /* OHCompositeXorPostProcessor.h */,
+				118952470F23A8C1206BC66E93E7E7A9 /* OHCompositeXorPostProcessor.m */,
+				D3DCCE0C506E2DA8C71F45D4D5EDB1E1 /* OHContact.h */,
+				F9E43CD086DC2228B62FF531F0C5EF0B /* OHContact.m */,
+				261EA54808998BC94FD83BD52E96407A /* OHContactAddress.h */,
+				C22E4C8DACC16EFB825B3A57E3DCF484 /* OHContactAddress.m */,
+				C1DCF92AAEF5126FDEB022E76C3D0C73 /* OHContactField.h */,
+				4437D77AD9F9B48E974BDA5041DF64AF /* OHContactField.m */,
+				A0E62A7448358C02C7B7FBD04E9E9091 /* OHContactsDataProviderProtocol.h */,
+				A27AE0E3CC6C4405F7643BF947C01047 /* OHContactsDataProviderProtocol.m */,
+				6654CC4CD0090D2615E48381E3C2BB40 /* OHContactsDataSource.h */,
+				3ABD6442E741D7138D9A670317A858ED /* OHContactsDataSource.m */,
+				6649F4636DBEA196DF100980CCB7ED53 /* OHContactsPostProcessorProtocol.h */,
+				87F5DBD66ACB9CF07DCF7790AF56EB9A /* OHContactsPostProcessorProtocol.m */,
+				79E8898AE138B4D4E76740FF693E9687 /* OHContactsSelectionFilterProtocol.h */,
+				D41664CB95422AA5E369D6466182F8D2 /* OHFuzzyMatchingUtility.h */,
+				5156C3DD49EFE037B9E51FCC3F728D86 /* OHFuzzyMatchingUtility.m */,
+				7B79B30CA5BE5ABA2C37FBCA9309A5FD /* OHMaximumSelectedCountSelectionFilter.h */,
+				7E3BE018DCED709E8B6F76A15760DFFE /* OHMaximumSelectedCountSelectionFilter.m */,
+				D8EF53845DA4A7117324F624154CFFF3 /* OHMinimumSelectedCountSelectionFilter.h */,
+				7184395792C8558D28253D70CFCEBAE1 /* OHMinimumSelectedCountSelectionFilter.m */,
+				3938AA2C88C3FF919D54BA2C2E051D09 /* OHPhoneNumberFormattingPostProcessor.h */,
+				5B857534D04C90B4B3BBAC8F12F91FA8 /* OHPhoneNumberFormattingPostProcessor.m */,
+				4CFC7B6C75E26C8AA3B9DA092D1B62C7 /* OHRequiredFieldPostProcessor.h */,
+				B887937AC2FE7275C21BA30A30C1576D /* OHRequiredFieldPostProcessor.m */,
+				9F89D1417ADD3C15744DFD069301AD88 /* OHRequiredFieldSelectionFilter.h */,
+				91BCD65553459C2CE5687001C5C1607E /* OHRequiredFieldSelectionFilter.m */,
+				3DEB763F7255405886539F44D7EC109F /* OHRequiredPostalAddressPostProcessor.h */,
+				44D66C7601B996BAE9E881108D1CD541 /* OHRequiredPostalAddressPostProcessor.m */,
+				815D6CA7FB4B5CF64EC6727947EF3E24 /* OHReverseOrderPostProcessor.h */,
+				E539EE53F8C66D647EE3022073449DE6 /* OHReverseOrderPostProcessor.m */,
+				7F9182AFF7FBF834CDD264FDFFA24816 /* OHSplitOnFieldTypePostProcessor.h */,
+				77EFDE775C3F93F339359882FC0032A5 /* OHSplitOnFieldTypePostProcessor.m */,
+				8CB8CED419D9D96C5A8D35B1C3CF4AB9 /* OHStatisticsPostProcessor.h */,
+				473386D89DCCFD07A34EA0AF6A81EFEF /* OHStatisticsPostProcessor.m */,
+				7061CF3956DA35D6582CB0E7F9294CC1 /* Support Files */,
+			);
+			name = Ohana;
+			path = Ohana;
+			sourceTree = "<group>";
+		};
+		A2273FA928DB55E3646334E7771303EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BFD7B8E5384B107D23C2131509FE7CA /* libPhoneNumber_iOS.framework */,
+				EF898BBF3E9927EEF701BC516EE093C0 /* UberSignals.framework */,
+				D359C9E05508759EBBF9C2B296068DFD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A759B829AC329AC67A05BED8107579CD /* UberSignals */ = {
+			isa = PBXGroup;
+			children = (
+				275818D3E391A4B7B333529A383B92F6 /* UBBaseSignal.h */,
+				7C1081CF36F32E57F9AC00A0EB6E011B /* UBBaseSignal.m */,
+				97407379D0A7C486BA299DF17ADFF5C4 /* UberSignals.h */,
+				89CD95C74B678C96AFCC37F61CBC78FD /* UBSignal.h */,
+				F32C5ECEF005C8EAB11BEDB4A30B5C6F /* UBSignal.m */,
+				09C24150B909F80D92C924F78E5E0A55 /* UBSignal+Internal.h */,
+				E4183BBB948881CDEC807F63562F4418 /* UBSignal+Preprocessor.h */,
+				0757DD6C241F841D2F030121DA0FE4BB /* UBSignalObserver.h */,
+				AC41AC5932E93E9E8ABB7DDA5E8733A4 /* UBSignalObserver.m */,
+				6C5F2106919841508EFF3F3D2FC03DCA /* UBSignalObserver+Internal.h */,
+				37F5FE51029F9878F8E43CA4D5C9C65D /* Support Files */,
+			);
+			name = UberSignals;
+			path = UberSignals;
+			sourceTree = "<group>";
+		};
+		BA33B13C7F93819B380F6CF969D1DCA4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				48546EC3B03045DD2AE9E99041D468B6 /* Pods-MyContacts */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D359C9E05508759EBBF9C2B296068DFD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E450A34B4D3F90430135B4A4CF47CEB3 /* AddressBook.framework */,
+				734BCC00DD514BC5ADE190818B589C55 /* Contacts.framework */,
+				0C8E6FAF0D96A902EC4DA9160000BFDA /* CoreTelephony.framework */,
+				74F8320A0634267D99AE436BE09C591A /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E15E2C4450B7E891EFB6732368A6DA90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F74EA2FD7D0375E512BE6825F94696A /* libPhoneNumber_iOS.framework */,
+				3EC0287D049D5F2A84E48936FAE5A297 /* Ohana.framework */,
+				6352B8C6B3305445F7C7DC3E6584F3B5 /* Pods_MyContacts.framework */,
+				46D16328DDC5770C3023B9DA1D0B9F26 /* UberSignals.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02063F170694167086F9B389291421F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61A22982256B52981D9C877DDC3F43C /* OHABAddressBookContactsDataProvider.h in Headers */,
+				AF5F3B84E7A399D0C079B492F157FA40 /* OHAlphabeticalSortPostProcessor.h in Headers */,
+				925BB34FF47B6BE9FB5518EFCD0F0D51 /* Ohana-umbrella.h in Headers */,
+				99CB8B92B56D1764866C1B608DAE595B /* Ohana.h in Headers */,
+				CF657A909094C612FA40F43AA357A74D /* OhanaCommon.h in Headers */,
+				3F626865BF121162AB5E432AFDB98C6C /* OhanaCore.h in Headers */,
+				51AF948E359CC04F834200DF119199D3 /* OhanaUtilities.h in Headers */,
+				182CA382417A30F08DC624766E5444D7 /* OHCNContactsDataProvider.h in Headers */,
+				546AE3DE81F3CF69585F1EE8F558ACB7 /* OHCompositeAndPostProcessor.h in Headers */,
+				D0076C2A7D11536E91D6B977287454D3 /* OHCompositeOrPostProcessor.h in Headers */,
+				63DF4022B0937228D2E7E9DCFAE6F5E5 /* OHCompositeXorPostProcessor.h in Headers */,
+				965618BE79DFC104150A393116B846D3 /* OHContact.h in Headers */,
+				1BD5CB0EDC3D221113A0588F95929E98 /* OHContactAddress.h in Headers */,
+				60E131DC1A36CDDB9C507310CBD745BE /* OHContactField.h in Headers */,
+				363A8552945F740E0999B09E9CF0DDAD /* OHContactsDataProviderProtocol.h in Headers */,
+				CDF1A16905B1892DB7E28E22448C92A5 /* OHContactsDataSource.h in Headers */,
+				C0FD99D4A17B42A00277A7F2AC51390F /* OHContactsPostProcessorProtocol.h in Headers */,
+				59DEBD52D1ED2019515822F9F44A7AFC /* OHContactsSelectionFilterProtocol.h in Headers */,
+				DD24897A4099FB715EAD0DA1ECF02214 /* OHFuzzyMatchingUtility.h in Headers */,
+				224F1D34ACCFD277D1EB585CD549B818 /* OHMaximumSelectedCountSelectionFilter.h in Headers */,
+				BA558B1F0641586ED3E8CC472462FF0A /* OHMinimumSelectedCountSelectionFilter.h in Headers */,
+				F35116F923C9FC4562EA40557F60FB7A /* OHPhoneNumberFormattingPostProcessor.h in Headers */,
+				71336BEFB22A62E4E292A83FC3DCE7D3 /* OHRequiredFieldPostProcessor.h in Headers */,
+				A95C78B9A4A7AFDF3508EC69DD93E44B /* OHRequiredFieldSelectionFilter.h in Headers */,
+				8FD84BA78D4C6042630D5270ABB5AF9A /* OHRequiredPostalAddressPostProcessor.h in Headers */,
+				9817E5A71DACB41DB1FB7913645AF259 /* OHReverseOrderPostProcessor.h in Headers */,
+				1184E1CF6D32761901B805AA2C32A9D0 /* OHSplitOnFieldTypePostProcessor.h in Headers */,
+				06105C97016DE0FA0B11A9295040D273 /* OHStatisticsPostProcessor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9813A8525270E2C1F4CE1C9180517D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA5FD5082B57C0310174D5117B868A7 /* Pods-MyContacts-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7997C9B7626E1AA38AE45C36EE08F340 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941075F8962D541141A7C1E14C7D8E36 /* libPhoneNumber-iOS-umbrella.h in Headers */,
+				36A8ED1D447D64D18A71691491302B51 /* NBAsYouTypeFormatter.h in Headers */,
+				CD079D9FF6CF2278EA1F123035F7B377 /* NBMetadataCore.h in Headers */,
+				36EC9A62E8FF4548AB7E99403B660D38 /* NBMetadataCoreMapper.h in Headers */,
+				1A5923D2A0E6E44A129E617FD3E75732 /* NBMetadataCoreTest.h in Headers */,
+				3F46C74CCB7D535F6ECB98193A925112 /* NBMetadataCoreTestMapper.h in Headers */,
+				519AB05108425A77DF1EB83C73E70D98 /* NBMetadataHelper.h in Headers */,
+				2723332B5C586BAFFAB7E4B2802788B5 /* NBNumberFormat.h in Headers */,
+				E803B320362DED092C79ADB3CA8BCC3C /* NBPhoneMetaData.h in Headers */,
+				E960872F42FA64DC5C6AE090DDDD63E8 /* NBPhoneNumber.h in Headers */,
+				17F43BD263095E16EF936F95F01ACF88 /* NBPhoneNumberDefines.h in Headers */,
+				C671A606E6A608EEDD931FB7D348C62A /* NBPhoneNumberDesc.h in Headers */,
+				5821D73FB91EE5856D78230364A77264 /* NBPhoneNumberUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0757FA54AD0AAB0029264D46B28757C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E114DD01421CD243B64772DE2B91F00 /* UBBaseSignal.h in Headers */,
+				19437EDAFFC5122F3B5C62861C8305B2 /* UberSignals-umbrella.h in Headers */,
+				3B7F8BCB65310FABBCFD077FD0E1999E /* UberSignals.h in Headers */,
+				8D6172444BE179F7FFF2393094CAE8F5 /* UBSignal+Internal.h in Headers */,
+				72B301FC6D9659A27942185E25D8D08B /* UBSignal+Preprocessor.h in Headers */,
+				F4D0D412DC1DE4ABF3E89AB84459CBE9 /* UBSignal.h in Headers */,
+				24CACE83472D6DB950A8E7A4698AB495 /* UBSignalObserver+Internal.h in Headers */,
+				ED76B2B99ECAB719E7BD1038D3D0A069 /* UBSignalObserver.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0687E30467AF6A50504830300B49AE96 /* Ohana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 809D52F100A0C6A021E3B705D2543551 /* Build configuration list for PBXNativeTarget "Ohana" */;
+			buildPhases = (
+				515A59A28600B922A30AA552C430CD28 /* Sources */,
+				0BE678D22D89ED4969012660E2841769 /* Frameworks */,
+				02063F170694167086F9B389291421F7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D14C1671C2F48D4FE9CF9F376F033BCA /* PBXTargetDependency */,
+				E49C9CD581B0BF43D7141378ABB353FD /* PBXTargetDependency */,
+			);
+			name = Ohana;
+			productName = Ohana;
+			productReference = 3EC0287D049D5F2A84E48936FAE5A297 /* Ohana.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		48ED6F80370468024FD8E1EA1AB1D104 /* UberSignals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39C3CE738BD52FFEC0BF23CAFE80A18 /* Build configuration list for PBXNativeTarget "UberSignals" */;
+			buildPhases = (
+				09450E1C2F9E6968613FACE9A04C0E39 /* Sources */,
+				5F011F3D197A791228CE67D95632C7B0 /* Frameworks */,
+				C0757FA54AD0AAB0029264D46B28757C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UberSignals;
+			productName = UberSignals;
+			productReference = 46D16328DDC5770C3023B9DA1D0B9F26 /* UberSignals.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7D5D891676725492FDD435B2ACEBBB3B /* libPhoneNumber-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D3F24CD957D41B143DE94E9F3FFB2E2 /* Build configuration list for PBXNativeTarget "libPhoneNumber-iOS" */;
+			buildPhases = (
+				150F599F0C17B99CF00883B2A6921B1E /* Sources */,
+				7D260C87D405AEF5486F446E8DB401DB /* Frameworks */,
+				7997C9B7626E1AA38AE45C36EE08F340 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libPhoneNumber-iOS";
+			productName = "libPhoneNumber-iOS";
+			productReference = 9F74EA2FD7D0375E512BE6825F94696A /* libPhoneNumber_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8645D18672DE70B26B03E91496EFB011 /* Pods-MyContacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09CBDC94B76DD247F823EDBDBA66B086 /* Build configuration list for PBXNativeTarget "Pods-MyContacts" */;
+			buildPhases = (
+				F81961788A65239081175652B0753474 /* Sources */,
+				AD731FDD96BB8AB9C0A91F00CC7A3B00 /* Frameworks */,
+				2F9813A8525270E2C1F4CE1C9180517D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE7B706232369E992ADE586CC24DE54E /* PBXTargetDependency */,
+				DF56BD1329D853938E2C64784C75742C /* PBXTargetDependency */,
+				95C0B29117646D35C99F584555463528 /* PBXTargetDependency */,
+			);
+			name = "Pods-MyContacts";
+			productName = "Pods-MyContacts";
+			productReference = 6352B8C6B3305445F7C7DC3E6584F3B5 /* Pods_MyContacts.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E15E2C4450B7E891EFB6732368A6DA90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D5D891676725492FDD435B2ACEBBB3B /* libPhoneNumber-iOS */,
+				0687E30467AF6A50504830300B49AE96 /* Ohana */,
+				8645D18672DE70B26B03E91496EFB011 /* Pods-MyContacts */,
+				48ED6F80370468024FD8E1EA1AB1D104 /* UberSignals */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09450E1C2F9E6968613FACE9A04C0E39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548A78963EE789B2BDDA08C5F4F9978B /* UBBaseSignal.m in Sources */,
+				EB1B4AAD409B31168DE70AAAAE13FB95 /* UberSignals-dummy.m in Sources */,
+				0F3039509A95D8B36257D573A08465B8 /* UBSignal.m in Sources */,
+				091C4D08FD4A8304301C722665BE0A74 /* UBSignalObserver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150F599F0C17B99CF00883B2A6921B1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D28EB4B85948B26BFED31E3D5BE1473 /* libPhoneNumber-iOS-dummy.m in Sources */,
+				9F61CB304F2A99ACC6D93C7FF963927E /* NBAsYouTypeFormatter.m in Sources */,
+				5C8745A75EEA6FA059849F69B9D8B7A8 /* NBMetadataCore.m in Sources */,
+				6B724501CE32241A88B298086EA53046 /* NBMetadataCoreMapper.m in Sources */,
+				EEFF62498D60EEED20B9ADA7B7836D83 /* NBMetadataCoreTest.m in Sources */,
+				B1D23B278B890907C8D0BAF2A4776EC6 /* NBMetadataCoreTestMapper.m in Sources */,
+				C504AF7F7395D07EFF01C24D95782449 /* NBMetadataHelper.m in Sources */,
+				91B0278A98D205798D8EAD688E964D22 /* NBNumberFormat.m in Sources */,
+				757DAB4F19B1540CC902016FD8F19DCE /* NBPhoneMetaData.m in Sources */,
+				B6FD89770E63F304CF7162F32B7D6E47 /* NBPhoneNumber.m in Sources */,
+				E2CE5E37909F9FB2BDB76F1C0F56CB08 /* NBPhoneNumberDefines.m in Sources */,
+				1AB57CF1180A260A69C6FFE7878335D5 /* NBPhoneNumberDesc.m in Sources */,
+				4B36709D8D76E08C6AC977FD7C6CEF8E /* NBPhoneNumberUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515A59A28600B922A30AA552C430CD28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D549200BE1A27025789ED4DAB9DB86 /* OHABAddressBookContactsDataProvider.m in Sources */,
+				43971EB9F27DF23E482EA61F34889BEF /* OHAlphabeticalSortPostProcessor.m in Sources */,
+				8DF74F81106AF2544121850D313E2DCD /* Ohana-dummy.m in Sources */,
+				C57274B11AE68B3AE2BE53641C47A8DF /* OHCNContactsDataProvider.m in Sources */,
+				8A5C7D4C80B856652B61182FDE02FED3 /* OHCompositeAndPostProcessor.m in Sources */,
+				730A6A7317129AF673EDEA1AAAD85685 /* OHCompositeOrPostProcessor.m in Sources */,
+				85622D395FF614C4B0D87D732F241002 /* OHCompositeXorPostProcessor.m in Sources */,
+				1356E92D7EF8920BBB3DDE6A2B8C83CA /* OHContact.m in Sources */,
+				374C9CCD8A9E14C8CF9C4266B384A79F /* OHContactAddress.m in Sources */,
+				B99BD1B2E733BCEF56CDA66F5776FD49 /* OHContactField.m in Sources */,
+				7498DDD8F7525B3139B2C7EE029A40E6 /* OHContactsDataProviderProtocol.m in Sources */,
+				D2C812981DE9F6AB46709A9DFC6FC255 /* OHContactsDataSource.m in Sources */,
+				0DCC4AE5199D710A313D0FF2148E78FF /* OHContactsPostProcessorProtocol.m in Sources */,
+				6FC59CA7C5488DC444A18D9EAE410C1B /* OHFuzzyMatchingUtility.m in Sources */,
+				8BCE12544A5982B4035A41DB5F29EF3B /* OHMaximumSelectedCountSelectionFilter.m in Sources */,
+				4BE569F518DB14A5B3890645EA7B75BF /* OHMinimumSelectedCountSelectionFilter.m in Sources */,
+				C6B7920D37CE7805090EB1326FB9161A /* OHPhoneNumberFormattingPostProcessor.m in Sources */,
+				7C2CB9955FFD2EF75BD6E59102105302 /* OHRequiredFieldPostProcessor.m in Sources */,
+				6592350D387E3A952522D53DB95A70B9 /* OHRequiredFieldSelectionFilter.m in Sources */,
+				78029AEEB71994661186DAB413B0B492 /* OHRequiredPostalAddressPostProcessor.m in Sources */,
+				316E7B5823DF9E2CEB75F8BE34C2AB67 /* OHReverseOrderPostProcessor.m in Sources */,
+				BCA497B84C236F7306D470D8829E65B5 /* OHSplitOnFieldTypePostProcessor.m in Sources */,
+				C96691974AEEA99D48CEC0635631570C /* OHStatisticsPostProcessor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81961788A65239081175652B0753474 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3D8B2C524F7F535F8713BD79AFE3BB /* Pods-MyContacts-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95C0B29117646D35C99F584555463528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libPhoneNumber-iOS";
+			target = 7D5D891676725492FDD435B2ACEBBB3B /* libPhoneNumber-iOS */;
+			targetProxy = FBDC48F6D39C892671F7FE1D93793626 /* PBXContainerItemProxy */;
+		};
+		D14C1671C2F48D4FE9CF9F376F033BCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UberSignals;
+			target = 48ED6F80370468024FD8E1EA1AB1D104 /* UberSignals */;
+			targetProxy = 30271FB166C355E612D4D538B670E362 /* PBXContainerItemProxy */;
+		};
+		DF56BD1329D853938E2C64784C75742C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UberSignals;
+			target = 48ED6F80370468024FD8E1EA1AB1D104 /* UberSignals */;
+			targetProxy = 48F28EA356026404BA54EB168314FF90 /* PBXContainerItemProxy */;
+		};
+		E49C9CD581B0BF43D7141378ABB353FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libPhoneNumber-iOS";
+			target = 7D5D891676725492FDD435B2ACEBBB3B /* libPhoneNumber-iOS */;
+			targetProxy = 0D33CA0F44FDCC2C9FFF07CBAD2D2D41 /* PBXContainerItemProxy */;
+		};
+		EE7B706232369E992ADE586CC24DE54E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Ohana;
+			target = 0687E30467AF6A50504830300B49AE96 /* Ohana */;
+			targetProxy = 4F1691C1F568C2657095F68CB3FA71A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2012DBE2B6A1F5FE308C187686C6E575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FA95DAD5B50D9651B521411B55A7830 /* Pods-MyContacts.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MyContacts/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyContacts/Pods-MyContacts.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MyContacts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25DAE188BD460AB421E74E20E848078A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 913207A27030EEBE3AEF29E978DE4674 /* Ohana.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Ohana/Ohana-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Ohana/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Ohana/Ohana.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Ohana;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E1BAF98A112C996A0B34C13B38E1417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC93751B0C8CAE9401ACBA4E29BE863B /* libPhoneNumber-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/libPhoneNumber-iOS/libPhoneNumber-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/libPhoneNumber-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/libPhoneNumber-iOS/libPhoneNumber-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = libPhoneNumber_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		695B0F17C078ABFFF643783B012158EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12FF22A5174DEE9A340ED0763BDE327E /* Pods-MyContacts.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MyContacts/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyContacts/Pods-MyContacts.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MyContacts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		72F2657A3576086AD2CA90AA4FC70310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EDE32D5B50076CA10298B84D1F0797B /* UberSignals.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UberSignals/UberSignals-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UberSignals/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UberSignals/UberSignals.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UberSignals;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B1C02107F8FF3143AA6BBE6975EBDA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EDE32D5B50076CA10298B84D1F0797B /* UberSignals.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UberSignals/UberSignals-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UberSignals/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UberSignals/UberSignals.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UberSignals;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		83330760FFF4F0D3FEAF6DE49B421A1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC93751B0C8CAE9401ACBA4E29BE863B /* libPhoneNumber-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/libPhoneNumber-iOS/libPhoneNumber-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/libPhoneNumber-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/libPhoneNumber-iOS/libPhoneNumber-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = libPhoneNumber_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0D6991AF3D9D329E90E99DD0F1110B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 913207A27030EEBE3AEF29E978DE4674 /* Ohana.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Ohana/Ohana-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Ohana/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Ohana/Ohana.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Ohana;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09CBDC94B76DD247F823EDBDBA66B086 /* Build configuration list for PBXNativeTarget "Pods-MyContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				695B0F17C078ABFFF643783B012158EB /* Debug */,
+				2012DBE2B6A1F5FE308C187686C6E575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D3F24CD957D41B143DE94E9F3FFB2E2 /* Build configuration list for PBXNativeTarget "libPhoneNumber-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83330760FFF4F0D3FEAF6DE49B421A1B /* Debug */,
+				4E1BAF98A112C996A0B34C13B38E1417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		809D52F100A0C6A021E3B705D2543551 /* Build configuration list for PBXNativeTarget "Ohana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25DAE188BD460AB421E74E20E848078A /* Debug */,
+				E0D6991AF3D9D329E90E99DD0F1110B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F39C3CE738BD52FFEC0BF23CAFE80A18 /* Build configuration list for PBXNativeTarget "UberSignals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B1C02107F8FF3143AA6BBE6975EBDA6 /* Debug */,
+				72F2657A3576086AD2CA90AA4FC70310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
